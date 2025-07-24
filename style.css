@@ -1,25 +1,23 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
-    background-color: #1f2937;
     color: #f9faf8;
+    background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    margin-left: 72px;
-    margin-right: 72px;
 }
 
 .header {
+    width: 900px;
+    margin: auto;
+    padding: 8px;
+
     display: flex;
     justify-content: space-between;
     font-weight: 700;
     overflow: hidden;
 }
 
-.content {
-    display: flex;
-    flex: auto;
-    align-items: center;
-}
+
 
 ul {
     display: flex;
@@ -37,14 +35,105 @@ a {
 
 .right-links {
     font-weight: 500;
-    justify-self: end;
+    justify-items: end;
 }
 
 .left-links {
-    justify-items: start;
+    justify-content: start;
 }
 
-.section1 {
+.section {
+    height: 410px;
+    width: 100%;
+
+}
+
+.section.one {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+
     display: flex;
+    align-items: center;
     flex: auto;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+    
+}
+
+.big-img {
+    
+    margin-left: 8px;
+    margin-right: 48px;
+    
+}
+
+.modal {
+    margin-left: 32px;
+}
+
+h1 {
+    margin-right: 50%;
+}
+
+.text {
+    margin-bottom: 16px;
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+button {
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button.signup {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 6px 24px; 
+    font-weight: 700; 
+    border: none;
+      
+}
+
+.section.two {
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    color: black;
+    align-items: center;
+    gap: 16px;
+   
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.small {
+    height: 100px;
+    width: 100px;
+    border: #3882f6;
+}
+
+.card {
+    max-width: 150px;
+    height: auto;
+}
+
+.card-text {
+    font-size: 14px;
+    color: gray;
+}
+
+h2 {
+    color: black;
 }
