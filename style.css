@@ -62,6 +62,7 @@ img {
     width: 100%;
     border-radius: 8px;
     
+    
 }
 
 .big-img {
@@ -121,7 +122,7 @@ button.signup {
 .small {
     height: 100px;
     width: 100px;
-    border: #3882f6;
+    border: 1px #3882f6;
 }
 
 .card {
@@ -137,3 +138,80 @@ button.signup {
 h2 {
     color: black;
 }
+
+.section.three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+.quote-container {
+    max-width: 600px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote-author {
+    padding: 12px;
+    font-weight: 700;
+    justify-self: end;
+}
+
+.section.four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    height: 124px;
+    width: 800px;
+    border-radius: 8px;
+    background-color: #3882f6;
+
+    align-items: center;
+}
+
+.signup.white {
+    height: 32px;
+    border: 1px solid #e5e7eb;
+    align-self: center;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-subtext {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.banner.head {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+
+    font-size: 12px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
